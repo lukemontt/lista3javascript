@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        Erxercício: 
+        Criar um programa em javascript que solicite a idade do usuário, informando
+        se ele pode votar, se não pode votar ou se tem a opção de votar ou não. 
+    -->
+    <script>
+        var idade = prompt("Digite a sua idade");
+        if (idade < 16) {
+            alert("Você não pode votar");
+        } else if (idade >= 16 && idade <= 17) {
+            alert("Seu voto é opcional");
+        } else if (idade >= 70) {
+            alert("Seu voto é opcional");
+        } else if (idade > 17 && idade < 70) {
+            alert("Você pode votar");
+        }
+    </script>
+</body>
+</html>
